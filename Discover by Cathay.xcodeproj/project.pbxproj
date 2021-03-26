@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ACA0ECB1A70B0110EF1DB74 /* Pods_Discover_by_Cathay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7C3A08D5057A90000812DF /* Pods_Discover_by_Cathay.framework */; };
+		EF805913260A2C6900BFC3A9 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF805912260A2C6900BFC3A9 /* MovieDetailViewModel.swift */; };
+		EF805916260A2D2B00BFC3A9 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF805915260A2D2B00BFC3A9 /* MovieDetail.swift */; };
+		EF948584260BFE9000822E11 /* SortListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF948583260BFE9000822E11 /* SortListTableViewController.swift */; };
+		EFBEA26726073B3F0042ABE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBEA26626073B3F0042ABE9 /* AppDelegate.swift */; };
+		EFBEA26926073B3F0042ABE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBEA26826073B3F0042ABE9 /* SceneDelegate.swift */; };
+		EFBEA26E26073B3F0042ABE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBEA26C26073B3F0042ABE9 /* Main.storyboard */; };
+		EFBEA27026073B400042ABE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBEA26F26073B400042ABE9 /* Assets.xcassets */; };
+		EFBEA27326073B400042ABE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBEA27126073B400042ABE9 /* LaunchScreen.storyboard */; };
+		EFD98F1F260AED9400B9A055 /* Discover_by_CathayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFD98F1E260AED9400B9A055 /* Discover_by_CathayTests.swift */; };
+		EFE7517926080E8B00537EB7 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7517826080E8B00537EB7 /* MovieListTableViewController.swift */; };
+		EFE7517C26080EA200537EB7 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7517B26080EA200537EB7 /* MovieDetailViewController.swift */; };
+		EFE7517F26080EAF00537EB7 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7517E26080EAF00537EB7 /* Movie.swift */; };
+		EFE7518326080EC900537EB7 /* URLRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7518226080EC900537EB7 /* URLRequest+Extensions.swift */; };
+		EFE7518E26080F9E00537EB7 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7518D26080F9E00537EB7 /* MovieViewModel.swift */; };
+		EFE7519226083C9D00537EB7 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE7519126083C9D00537EB7 /* MovieTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFD98F21260AED9400B9A055 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFBEA25B26073B3F0042ABE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFBEA26226073B3F0042ABE9;
+			remoteInfo = "Discover by Cathay";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64DAF35B1759CCBE5A7DF267 /* Pods-Discover by Cathay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discover by Cathay.release.xcconfig"; path = "Target Support Files/Pods-Discover by Cathay/Pods-Discover by Cathay.release.xcconfig"; sourceTree = "<group>"; };
+		D2684147FC8528D878C83945 /* Pods-Discover by Cathay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Discover by Cathay.debug.xcconfig"; path = "Target Support Files/Pods-Discover by Cathay/Pods-Discover by Cathay.debug.xcconfig"; sourceTree = "<group>"; };
+		DE7C3A08D5057A90000812DF /* Pods_Discover_by_Cathay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Discover_by_Cathay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF805912260A2C6900BFC3A9 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		EF805915260A2D2B00BFC3A9 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		EF948583260BFE9000822E11 /* SortListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortListTableViewController.swift; sourceTree = "<group>"; };
+		EFBEA26326073B3F0042ABE9 /* Discover by Cathay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Discover by Cathay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBEA26626073B3F0042ABE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFBEA26826073B3F0042ABE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFBEA26D26073B3F0042ABE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFBEA26F26073B400042ABE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFBEA27226073B400042ABE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFBEA27426073B400042ABE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFD98F1C260AED9400B9A055 /* Discover by CathayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Discover by CathayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFD98F1E260AED9400B9A055 /* Discover_by_CathayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover_by_CathayTests.swift; sourceTree = "<group>"; };
+		EFD98F20260AED9400B9A055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE7517826080E8B00537EB7 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		EFE7517B26080EA200537EB7 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		EFE7517E26080EAF00537EB7 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		EFE7518226080EC900537EB7 /* URLRequest+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extensions.swift"; sourceTree = "<group>"; };
+		EFE7518D26080F9E00537EB7 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		EFE7519126083C9D00537EB7 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFBEA26026073B3F0042ABE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACA0ECB1A70B0110EF1DB74 /* Pods_Discover_by_Cathay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD98F19260AED9400B9A055 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		305BE26970008DCDC98B01DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2684147FC8528D878C83945 /* Pods-Discover by Cathay.debug.xcconfig */,
+				64DAF35B1759CCBE5A7DF267 /* Pods-Discover by Cathay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0E8C17F675570AA54ABA620 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE7C3A08D5057A90000812DF /* Pods_Discover_by_Cathay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFBEA25A26073B3F0042ABE9 = {
+			isa = PBXGroup;
+			children = (
+				EFBEA26526073B3F0042ABE9 /* Discover by Cathay */,
+				EFD98F1D260AED9400B9A055 /* Discover by CathayTests */,
+				EFBEA26426073B3F0042ABE9 /* Products */,
+				305BE26970008DCDC98B01DD /* Pods */,
+				B0E8C17F675570AA54ABA620 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFBEA26426073B3F0042ABE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFBEA26326073B3F0042ABE9 /* Discover by Cathay.app */,
+				EFD98F1C260AED9400B9A055 /* Discover by CathayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBEA26526073B3F0042ABE9 /* Discover by Cathay */ = {
+			isa = PBXGroup;
+			children = (
+				EFE7519426083D2400537EB7 /* Cells */,
+				EFE7518C26080F8A00537EB7 /* ViewModels */,
+				EFE7518626080ECC00537EB7 /* Extensions */,
+				EFE7518126080EB300537EB7 /* Models */,
+				EFE7517626080E6800537EB7 /* Controllers */,
+				EFBEA26626073B3F0042ABE9 /* AppDelegate.swift */,
+				EFBEA26826073B3F0042ABE9 /* SceneDelegate.swift */,
+				EFBEA26C26073B3F0042ABE9 /* Main.storyboard */,
+				EFBEA26F26073B400042ABE9 /* Assets.xcassets */,
+				EFBEA27126073B400042ABE9 /* LaunchScreen.storyboard */,
+				EFBEA27426073B400042ABE9 /* Info.plist */,
+			);
+			path = "Discover by Cathay";
+			sourceTree = "<group>";
+		};
+		EFD98F1D260AED9400B9A055 /* Discover by CathayTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFD98F1E260AED9400B9A055 /* Discover_by_CathayTests.swift */,
+				EFD98F20260AED9400B9A055 /* Info.plist */,
+			);
+			path = "Discover by CathayTests";
+			sourceTree = "<group>";
+		};
+		EFE7517626080E6800537EB7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFE7517826080E8B00537EB7 /* MovieListTableViewController.swift */,
+				EFE7517B26080EA200537EB7 /* MovieDetailViewController.swift */,
+				EF948583260BFE9000822E11 /* SortListTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EFE7518126080EB300537EB7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFE7517E26080EAF00537EB7 /* Movie.swift */,
+				EF805915260A2D2B00BFC3A9 /* MovieDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFE7518626080ECC00537EB7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EFE7518226080EC900537EB7 /* URLRequest+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EFE7518C26080F8A00537EB7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EFE7518D26080F9E00537EB7 /* MovieViewModel.swift */,
+				EF805912260A2C6900BFC3A9 /* MovieDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EFE7519426083D2400537EB7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EFE7519126083C9D00537EB7 /* MovieTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFBEA26226073B3F0042ABE9 /* Discover by Cathay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBEA27726073B400042ABE9 /* Build configuration list for PBXNativeTarget "Discover by Cathay" */;
+			buildPhases = (
+				C276D2F1748FF526E207F0CA /* [CP] Check Pods Manifest.lock */,
+				EFBEA25F26073B3F0042ABE9 /* Sources */,
+				EFBEA26026073B3F0042ABE9 /* Frameworks */,
+				EFBEA26126073B3F0042ABE9 /* Resources */,
+				00A1279F45AEE36E719CDE49 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Discover by Cathay";
+			productName = "Discover by Cathay";
+			productReference = EFBEA26326073B3F0042ABE9 /* Discover by Cathay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFD98F1B260AED9400B9A055 /* Discover by CathayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFD98F25260AED9400B9A055 /* Build configuration list for PBXNativeTarget "Discover by CathayTests" */;
+			buildPhases = (
+				EFD98F18260AED9400B9A055 /* Sources */,
+				EFD98F19260AED9400B9A055 /* Frameworks */,
+				EFD98F1A260AED9400B9A055 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFD98F22260AED9400B9A055 /* PBXTargetDependency */,
+			);
+			name = "Discover by CathayTests";
+			productName = "Discover by CathayTests";
+			productReference = EFD98F1C260AED9400B9A055 /* Discover by CathayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFBEA25B26073B3F0042ABE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EFBEA26226073B3F0042ABE9 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EFD98F1B260AED9400B9A055 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EFBEA26226073B3F0042ABE9;
+					};
+				};
+			};
+			buildConfigurationList = EFBEA25E26073B3F0042ABE9 /* Build configuration list for PBXProject "Discover by Cathay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFBEA25A26073B3F0042ABE9;
+			productRefGroup = EFBEA26426073B3F0042ABE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFBEA26226073B3F0042ABE9 /* Discover by Cathay */,
+				EFD98F1B260AED9400B9A055 /* Discover by CathayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFBEA26126073B3F0042ABE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFBEA27326073B400042ABE9 /* LaunchScreen.storyboard in Resources */,
+				EFBEA27026073B400042ABE9 /* Assets.xcassets in Resources */,
+				EFBEA26E26073B3F0042ABE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD98F1A260AED9400B9A055 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A1279F45AEE36E719CDE49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Discover by Cathay/Pods-Discover by Cathay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Discover by Cathay/Pods-Discover by Cathay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Discover by Cathay/Pods-Discover by Cathay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C276D2F1748FF526E207F0CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Discover by Cathay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFBEA25F26073B3F0042ABE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE7517C26080EA200537EB7 /* MovieDetailViewController.swift in Sources */,
+				EFE7517926080E8B00537EB7 /* MovieListTableViewController.swift in Sources */,
+				EFBEA26726073B3F0042ABE9 /* AppDelegate.swift in Sources */,
+				EFE7518326080EC900537EB7 /* URLRequest+Extensions.swift in Sources */,
+				EFBEA26926073B3F0042ABE9 /* SceneDelegate.swift in Sources */,
+				EFE7518E26080F9E00537EB7 /* MovieViewModel.swift in Sources */,
+				EFE7519226083C9D00537EB7 /* MovieTableViewCell.swift in Sources */,
+				EF805916260A2D2B00BFC3A9 /* MovieDetail.swift in Sources */,
+				EF948584260BFE9000822E11 /* SortListTableViewController.swift in Sources */,
+				EFE7517F26080EAF00537EB7 /* Movie.swift in Sources */,
+				EF805913260A2C6900BFC3A9 /* MovieDetailViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFD98F18260AED9400B9A055 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD98F1F260AED9400B9A055 /* Discover_by_CathayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFD98F22260AED9400B9A055 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFBEA26226073B3F0042ABE9 /* Discover by Cathay */;
+			targetProxy = EFD98F21260AED9400B9A055 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFBEA26C26073B3F0042ABE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBEA26D26073B3F0042ABE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFBEA27126073B400042ABE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFBEA27226073B400042ABE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFBEA27526073B400042ABE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFBEA27626073B400042ABE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFBEA27826073B400042ABE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2684147FC8528D878C83945 /* Pods-Discover by Cathay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2BDQRSF4K;
+				INFOPLIST_FILE = "Discover by Cathay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "awislabs.com.Discover-by-Cathay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFBEA27926073B400042ABE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DAF35B1759CCBE5A7DF267 /* Pods-Discover by Cathay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2BDQRSF4K;
+				INFOPLIST_FILE = "Discover by Cathay/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "awislabs.com.Discover-by-Cathay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFD98F23260AED9400B9A055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2BDQRSF4K;
+				INFOPLIST_FILE = "Discover by CathayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "awislabs.com.Discover-by-CathayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discover by Cathay.app/Discover by Cathay";
+			};
+			name = Debug;
+		};
+		EFD98F24260AED9400B9A055 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2BDQRSF4K;
+				INFOPLIST_FILE = "Discover by CathayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "awislabs.com.Discover-by-CathayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Discover by Cathay.app/Discover by Cathay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFBEA25E26073B3F0042ABE9 /* Build configuration list for PBXProject "Discover by Cathay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBEA27526073B400042ABE9 /* Debug */,
+				EFBEA27626073B400042ABE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBEA27726073B400042ABE9 /* Build configuration list for PBXNativeTarget "Discover by Cathay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFBEA27826073B400042ABE9 /* Debug */,
+				EFBEA27926073B400042ABE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFD98F25260AED9400B9A055 /* Build configuration list for PBXNativeTarget "Discover by CathayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFD98F23260AED9400B9A055 /* Debug */,
+				EFD98F24260AED9400B9A055 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFBEA25B26073B3F0042ABE9 /* Project object */;
+}
